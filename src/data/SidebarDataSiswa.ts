@@ -1,0 +1,29 @@
+import {
+  HomeIcon,
+  ClipboardListIcon,
+  NotebookIcon,
+  UserIcon,
+} from "lucide-react";
+
+export const SidebarDataSiswa = [
+  {
+    name: "Dashboard",
+    link: "/siswa",
+    icon: HomeIcon,
+  },
+  {
+    name: "Attendance",
+    link: "/siswa/attendance",
+    icon: ClipboardListIcon,
+  },
+  {
+    name: "Home Work",
+    link: "/siswa/homework",
+    icon: NotebookIcon,
+  },
+  {
+    name: "Profile",
+    link: "/siswa/profile",
+    icon: UserIcon,
+  },
+];
