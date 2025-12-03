@@ -1,7 +1,7 @@
 import { dataSiswa } from "@/data/";
 import { siswa } from "@/types";
 
-export function findSiswa(search: string): siswa | null {
+export function usefindSiswa(search: string): siswa | null {
     const searchSiswa = dataSiswa.find(
         (v) => v.kelas === search || v.name === search
     );
