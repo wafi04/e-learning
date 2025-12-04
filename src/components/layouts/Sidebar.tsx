@@ -35,7 +35,7 @@ export function SidebarDashboard({
               {data.map((item) => (
                 <SidebarMenuItem
                   key={item.name}
-                  className={`${item.link === pathname ? "bg-primary" : ""} border-2 rounded-xl border-primary hover:bg-primary`}
+                  className={`${item.link === pathname ? "bg-primary" : ""} border-2 border-primary/10 rounded-xl  hover:bg-primary`}
                 >
                   <SidebarMenuButton asChild>
                     <Link href={item.link}>

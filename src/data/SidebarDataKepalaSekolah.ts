@@ -1,4 +1,4 @@
-import { ClipboardListIcon, HomeIcon, School } from "lucide-react";
+import { ClipboardListIcon, HomeIcon, School, User } from "lucide-react";
 
 export const dataKepalaSekolah = [
   {
@@ -15,5 +15,15 @@ export const dataKepalaSekolah = [
     name: "Kelas",
     link: "/kepala-sekolah/kelas",
     icon: School,
+  },
+  {
+    name: "Siswa",
+    link: "/kepala-sekolah/siswa",
+    icon: User,
+  },
+  {
+    name: "Guru",
+    link: "/kepala-sekolah/guru",
+    icon: User,
   },
 ];
